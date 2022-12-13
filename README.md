@@ -1,3 +1,3 @@
-# Lord of the Rings Visual Novel adaptation
+# Lord of the Rings visual novel adaptation
 
-Assignment for Lord of the Rings class at Waterloo U
+Assignment for ENGL 108T class at the University of Waterloo
