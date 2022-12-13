@@ -284,4 +284,4 @@ function checkOption(option) {
   }
 }
 
-const options = ["Frodo", "Elf", "Dwarf", "Gollum"];
+const options = ["Hobbit", "Elf", "Dwarf", "Gollum"];
