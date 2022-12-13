@@ -224,7 +224,7 @@ function selectOption(option) {
   const optionsDiv = document.querySelector("#options");
   div.removeChild(optionsDiv);
   const image = document.querySelector("img");
-  image.setAttribute("src", `images/${option.textContent.toLowerCase()}.png`);
+  image.setAttribute("src", `images/${option.textContent.toLowerCase()}1.png`);
   image.removeAttribute("id", "small");
 
   const dialogueBox = document.querySelector("#dialogueBox");
