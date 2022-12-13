@@ -13,13 +13,6 @@ const scenes = [
   FlightToFordBruinen,
 ];
 
-const characterImages = [
-  "images/frodo.png",
-  "images/elf.png",
-  "images/dwarf.png",
-  "images/gollum.png",
-];
-
 let info = ShadowOfThePast;
 let selection = info.intro;
 let counter = 1;
@@ -200,6 +193,9 @@ function updateDialogue(option) {
         displayOptions();
       }
 
+      const image = document.querySelector("img");
+      image.setAttribute("id", "small");
+
       backAgainButton;
     } else {
       dialogueBox.textContent = option[counter];
@@ -229,6 +225,7 @@ function selectOption(option) {
   div.removeChild(optionsDiv);
   const image = document.querySelector("img");
   image.setAttribute("src", `images/${option.textContent}.png`);
+  image.removeAttribute("id", "small");
 
   const dialogueBox = document.querySelector("#dialogueBox");
   const optionID = option.getAttribute("id");

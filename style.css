@@ -34,6 +34,10 @@ body {
         "options";
 }
 
+#small{
+    height: 25vh;
+}
+
 .scenes {
     margin: 5px;
     /* background-position: center;
