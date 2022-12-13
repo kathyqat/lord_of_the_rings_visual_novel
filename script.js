@@ -68,18 +68,12 @@ function endScreen() {
 
     const p1 = document.createElement("p");
     p1.setAttribute("class", "endScreen");
-    p1.textContent = "Thank you Professor Rendal!";
+    p1.textContent = "Thank you Professor Randall!";
     div.appendChild(p1);
 
     const p2 = document.createElement("p");
     p2.setAttribute("class", "endScreen");
     div.appendChild(p2);
-
-    const a = document.createElement("a");
-    a.setAttribute("id", "secretLink");
-    a.setAttribute("href", "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    a.textContent = "Secret Link";
-    div.appendChild(a);
   });
 }
 
